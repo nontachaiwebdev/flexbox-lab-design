@@ -52,3 +52,53 @@ input{
   height: 20px;
   margin-right:10px;
 }
+
+.contentContainer{
+  padding: 0 15px;
+}
+.contentHeader{
+  padding: 20px 0;
+  font-size: 1.1em;
+  letter-spacing: 1px;
+  color: #5e5c5e;
+}
+
+
+.resultBox{
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0;
+  border-bottom: 1px solid #f1eff1;
+}
+.resultImage{
+  flex-basis: 30%;
+  background: #333;
+}
+.result{
+  padding-left: 15px;
+  flex-grow:1;
+}
+.resultDistance{
+  display:flex;
+  align-items: center;
+  flex-grow:0;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  color:#d0ced0;
+}
+.resultName{
+  font-size: 1.1em;
+  color:#7b797b;
+  letter-spacing: 1px;
+  margin-bottom: 7px;
+}
+.resultZone{
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  color:#ceccce;
+  margin-bottom: 7px;
+}
+.resultStar img{
+  margin-right:2px;
+  width: 9px;
+}
