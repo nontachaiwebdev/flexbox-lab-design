@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import RestaurantDetail from './RestaurantDetail'
+import Favorite from './Favorite'
 import {
   BrowserRouter as Router,
   Route,
@@ -11,7 +12,8 @@ class App extends Component {
     return (
       <Router>
         <div>
-          <Route path="/restaurant" component={RestaurantDetail}/>
+	  <Route path='/restaurant' component={RestaurantDetail}/> 
+	  <Route path='/favorite' component={Favorite} />
         </div>
       </Router>    
     )
